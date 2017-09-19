@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cliente"
+           android:title="Clientes" />
+        <item
+            android:id="@+id/nav_profissional"
+            android:title="Profissionais" />
+        <item
+            android:id="@+id/nav_tarefa"
+            android:title="Tarefas" />
+        <item
+            android:id="@+id/nav_cadastro"
+            android:title="Novo Cadastro" />
+    </group>
+
+    <item android:title="Sincronização">
+        <menu>
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Notificações" />
+            <item
+                android:id="@+id/nav_mensagem"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mensagens" />
+        </menu>
+    </item>
+
+</menu>

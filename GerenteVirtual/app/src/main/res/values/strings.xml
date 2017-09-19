@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gerente Virtual</string>
+
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Fechar</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_splash">Apresentação</string>
+</resources>
